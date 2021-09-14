@@ -1,0 +1,53 @@
+.wrapper {}
+.content {
+
+}
+.header {
+	min-height: 793px;
+	background:url('../../images/header/cover.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container {
+	max-width: 1046px;
+	margin: 0 auto;
+}
+.navigation {
+	display: flex;
+	max-width: 50%;
+}
+.logo_container {
+	.logo{
+		color:$fcTitleMain;
+		font-size: 24px;
+		font-weight: 700;
+	}
+}
+.burger {
+	display: none;
+}
+.navigation_menu_container {
+	display: flex;
+}
+.navigation_elem {
+	a{
+		color:$fcMain;
+		font-size: 14px;
+		font-weight: 600;
+	}
+}
+.header_title {
+	max-width: 50%;
+	color:$fcTitleMain;
+	font-size:$fzh1;
+	font-weight: 800;
+}
+.header_content {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+}
+.header_buttons {}
+.button {}
+.painted_over {}
+.transparent {}
