@@ -94,7 +94,11 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 50%;
+  padding: 36px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -128,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header_text {
-  margin-top: 115px;
+  margin-top: 80px;
 }
 
 .header_title {
@@ -141,9 +145,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header_content {
+  margin-top: 35px;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.header_buttons {
+  margin-top: 35px;
 }
 
 .button {
@@ -168,7 +177,51 @@ h1, h2, h3, h4, h5, h6 {
   color: #0D5C63;
 }
 
+.fields {
+  margin-top: -121px;
+}
+
+.fields_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fields_item {
+  padding: 40px 0px 35px 40px;
+  max-width: 328px;
+  min-height: 242px;
+  background: #FFFFFF;
+}
+
+.field_icon {
+  width: 48px;
+  height: 48px;
+}
+.field_icon img {
+  width: 100%;
+}
+
+.fields_title {
+  margin-top: 13px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #252B42;
+}
+
+.fields_body {
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-right: 70px;
+}
+
 body {
   font-family: Montserrat;
   color: #737373;
+  font-size: 14px;
 }
