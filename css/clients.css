@@ -1,6 +1,7 @@
 .clients {
-  padding: 0 20px;
-  border-bottom: 77px solid #252B42; }
+  padding: 60px 20px 0px 20px;
+  border-bottom: 77px solid #252B42;
+  background: #FAFAFA; }
 
 .clients_icons {
   display: flex;
