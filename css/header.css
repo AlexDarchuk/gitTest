@@ -1,0 +1,96 @@
+.wrapper {
+  height: 100%;
+  background-image: url("../../images/header/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 36px; }
+  .wrapper .navigation {
+    display: flex;
+    align-items: center; }
+    .wrapper .navigation .Logo_container {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: #252B42;
+      cursor: pointer; }
+    .wrapper .navigation .navigation_menu_container {
+      margin: 0 auto 0 120px; }
+      .wrapper .navigation .navigation_menu_container .navigation_elem {
+        position: relative;
+        padding: 5px 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+        cursor: pointer; }
+        .wrapper .navigation .navigation_menu_container .navigation_elem:before {
+          content: "";
+          width: 0;
+          height: 2px;
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          background: #252B42;
+          transition: all 0.3s; }
+        .wrapper .navigation .navigation_menu_container .navigation_elem:hover:before {
+          width: 100%;
+          padding: 0 10px;
+          left: 0;
+          background: #252B42; }
+  .wrapper .header_text {
+    margin-top: 115px; }
+    .wrapper .header_text .header_title {
+      display: table-caption;
+      text-align: left;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 58px;
+      line-height: 80px;
+      letter-spacing: 0.2px;
+      color: #252B42; }
+    .wrapper .header_text .header_content {
+      display: table-caption;
+      margin: 35px 0;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.2px;
+      color: #737373; }
+    .wrapper .header_text .header_buttons .button.painted_over {
+      width: 185px;
+      height: 48px;
+      background: #FF7B47;
+      border-radius: 37px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #FFFFFF; }
+    .wrapper .header_text .header_buttons .button.transparent {
+      margin-left: 10px;
+      width: 157px;
+      height: 48px;
+      border: 1px solid #0D5C63;
+      border-radius: 37px;
+      background: transparent;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #0D5C63; }
