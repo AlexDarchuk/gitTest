@@ -215,6 +215,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 70px;
 }
 
+.designing {
+  background: #FAFAFA;
+  padding-top: 201px;
+  margin-top: -131px;
+}
+
 body {
   font-family: Montserrat;
   color: #737373;
@@ -224,4 +230,24 @@ body {
 .container {
   max-width: 1046px;
   margin: 0 auto;
+}
+
+.titel_container {
+  margin-bottom: 50px;
+}
+
+.section_title {
+  font-size: 58px;
+  color: #252B42;
+  font-weight: bold;
+  line-height: 57px;
+  text-align: center;
+}
+
+.secton_description {
+  max-width: 550px;
+  margin: 10px auto 0;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
 }

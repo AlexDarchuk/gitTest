@@ -20,6 +20,20 @@ body{
 	margin: 0 auto;
 }
 
-.titel_container {}
-.section_title {}
-.secton_description {}
+.titel_container {
+	margin-bottom: 50px;
+}
+.section_title {
+	font-size:$fzh1 ;
+	color: $fcTitleMain;
+	font-weight: bold;
+	line-height: 57px;
+	text-align:center;
+}
+.secton_description {
+	max-width: 550px;
+	margin: 10px auto 0;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: center;
+}
