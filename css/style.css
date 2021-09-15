@@ -85,11 +85,6 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
 }
 
-.container {
-  max-width: 1046px;
-  margin: 0 auto;
-}
-
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,4 +219,9 @@ body {
   font-family: Montserrat;
   color: #737373;
   font-size: 14px;
+}
+
+.container {
+  max-width: 1046px;
+  margin: 0 auto;
 }
