@@ -1,7 +1,3 @@
-.wrapper {}
-.content {
-
-}
 .header {
 	min-height: 793px;
 	background:url('../../images/header/cover.png');
@@ -15,12 +11,16 @@
 .navigation {
 	display: flex;
 	max-width: 50%;
+	align-items: center;
 }
 .logo_container {
 	.logo{
 		color:$fcTitleMain;
 		font-size: 24px;
 		font-weight: 700;
+		line-height: 32px;
+        letter-spacing: 0.1px;
+        cursor: pointer;
 	}
 }
 .burger {
@@ -34,13 +34,20 @@
 		color:$fcMain;
 		font-size: 14px;
 		font-weight: 600;
+		padding: 5px 10px;
+		cursor: pointer;
 	}
+}
+.header_text {
+	margin-top: 115px;
 }
 .header_title {
 	max-width: 50%;
 	color:$fcTitleMain;
 	font-size:$fzh1;
 	font-weight: 800;
+	line-height: 80px;
+	text-align: left;
 }
 .header_content {
 	font-weight: 500;
@@ -48,6 +55,24 @@
 	line-height: 30px;
 }
 .header_buttons {}
-.button {}
-.painted_over {}
-.transparent {}
+.button {
+	font-size:$fzmain;
+	line-height: 28px;
+	min-height: 48px;
+	font-weight: bold;
+	border-radius: 37px;
+}
+.painted_over {
+	min-width: 185px;
+	background:$buttonbgMain;
+	color: #FFFFFF;
+	
+}
+.transparent {
+	margin-left: 10px;
+	min-width: 157px;
+	background:transparent;
+	border: 1px solid #0D5C63;
+	color: #0D5C63;
+}
+

@@ -60,6 +60,7 @@ a:hover {
 
 ul li {
   list-style: none;
+  display: inline;
 }
 
 img {
@@ -69,6 +70,11 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: normal;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
 /*--------------------*/
@@ -89,12 +95,18 @@ h1, h2, h3, h4, h5, h6 {
   display: -ms-flexbox;
   display: flex;
   max-width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo_container .logo {
   color: #252B42;
   font-size: 24px;
   font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
 }
 
 .burger {
@@ -111,6 +123,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #737373;
   font-size: 14px;
   font-weight: 600;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.header_text {
+  margin-top: 115px;
 }
 
 .header_title {
@@ -118,6 +136,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #252B42;
   font-size: 58px;
   font-weight: 800;
+  line-height: 80px;
+  text-align: left;
 }
 
 .header_content {
@@ -126,7 +146,37 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 30px;
 }
 
+.button {
+  font-size: 14px;
+  line-height: 28px;
+  min-height: 48px;
+  font-weight: bold;
+  border-radius: 37px;
+}
+
+.painted_over {
+  min-width: 185px;
+  background: #FF7B47;
+  color: #FFFFFF;
+}
+
+.transparent {
+  margin-left: 10px;
+  min-width: 157px;
+  background: transparent;
+  border: 1px solid #0D5C63;
+  color: #0D5C63;
+}
+
 body {
   font-family: Montserrat;
   color: #737373;
+}
+
+.wrapper {
+  height: 100%;
+  background-image: url("../../images/header/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 36px;
 }
