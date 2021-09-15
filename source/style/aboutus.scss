@@ -1,13 +1,58 @@
-.about_us {}
-.about_us_body {}
-.about_us_media_container {}
+.about_us {
+	padding: 100px 0;
+}
+.about_us_body {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about_us_media_container {
+	flex: 0 1 50%;
+}
 .about_us_body_elem {}
-.about_us_media {}
-.about_us_content {}
-.about_us_subtitle {}
-.about_us_subtitle_description {}
-.about_us_subelem {}
-.about_us_icon_container {}
-.about_us_icon {}
-.about_us_icon_title {}
-.about_us_icon_description {}
+.about_us_media {
+	width: 100%;
+}
+.about_us_content {
+	flex: 0 0 35%;
+	margin-left: 120px;
+}
+.about_us_subtitle {
+	padding-top:20px;
+	margin-bottom: 10px;
+	font-size:$fzh2 ;
+	font-weight: 700;
+	line-height:57px;
+	color:$fcTitleMain;
+	
+}
+.about_us_subtitle_description {
+	margin-bottom: 50px;
+	font-weight: 500;
+	line-height: 20px;
+}
+.about_us_subelem {
+	display: flex;
+	margin-top: 30px;
+}
+.about_us_subelem_container {}
+.about_us_icon_container {
+	margin-right: 20px;
+	max-width: 30px;
+	max-height: 30px;
+}
+.about_us_icon {
+	width:100%;
+}
+.about_us_icon_title {
+	color: $fcTitleMain;
+	font-weight: 700;
+	font-size: $fzh5;
+	line-height: 24px;
+}
+.about_us_icon_description {
+	margin-top: 5px;
+	font-weight: 600;
+	line-height: 24px;
+}

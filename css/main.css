@@ -280,6 +280,85 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.about_us {
+  padding: 100px 0;
+}
+
+.about_us_body {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_us_media_container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.about_us_media {
+  width: 100%;
+}
+
+.about_us_content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35%;
+          flex: 0 0 35%;
+  margin-left: 120px;
+}
+
+.about_us_subtitle {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  color: #252B42;
+}
+
+.about_us_subtitle_description {
+  margin-bottom: 50px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.about_us_subelem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.about_us_icon_container {
+  margin-right: 20px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.about_us_icon {
+  width: 100%;
+}
+
+.about_us_icon_title {
+  color: #252B42;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about_us_icon_description {
+  margin-top: 5px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
 body {
   font-family: Montserrat;
   color: #737373;
