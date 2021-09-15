@@ -1,3 +1,5 @@
+@import 'variables';
+
 .header {
 	min-height: 793px;
 	background:url('../../images/header/cover.png');
@@ -29,13 +31,33 @@
 	display: flex;
 }
 .navigation_elem {
+    padding: 5px 10px;
 	a{
 		color:$fcMain;
 		font-size: 14px;
 		font-weight: 600;
-		padding: 5px 10px;
+        padding-bottom: 5px;
 		cursor: pointer;
-	}
+        position: relative;
+
+        &:before {
+            content: "";
+            width: 0;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: $fcMain;
+            transition: all 0.3s;
+          }
+          &:hover {
+            &:before {
+              width: 100%;
+              left: 0;
+              background: $fcThird;
+            }
+        }
+	} 
 }
 .header_text {
 	margin-top: 80px;
