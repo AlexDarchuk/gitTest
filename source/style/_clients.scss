@@ -1,0 +1,58 @@
+@import 'variables';
+
+.clients {
+    padding: 60px 20px 0px 20px;
+    border-bottom: 77px solid $fcTitleMain;
+    background: $bgThird;
+}
+.clients_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.clients_form_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    height: 125px;
+    padding: 30px 50px;
+    background: $bgSecondary;
+    margin: 70px auto -57px auto;
+}
+.form_title {
+    width: 30%;
+    font-weight: bold;
+    font-size: $fzh3;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: $fcTitleLight;
+}
+
+form {
+    display: flex;
+    width: 450px;
+
+    .clients_email_field {
+        width: 100%;
+        background: #F9F9F9;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        border-radius: 5px 0px 0px 5px;
+        padding: 15px 22.5px;
+    }
+    .clients_form_button {
+        padding: 15px 22.5px;
+        background: $buttonbgMain;
+        border: 1px solid #E6E6E6;
+        box-sizing: border-box;
+        border-radius: 0px 5px 5px 0px;
+        font-size: $fzmain;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: $fcTitleLight;
+    }
+}

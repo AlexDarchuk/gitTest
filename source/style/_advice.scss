@@ -1,0 +1,44 @@
+@import 'variables';
+
+.advice {
+    background: $bgThird;
+}
+
+.titel_container {
+
+    .section_title {
+        font-size: 40px;
+    }
+}
+.advice_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advice_cards_elem {
+    max-width: 230px;
+
+    .advice_block_text {
+        min-height: 203px;
+        padding: 30px;
+        background: $bgwithoutFocus;
+
+        .advice_cards_elem_title {
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: $fzh5;
+            line-height: $fzh3;
+            letter-spacing: 0.1px;
+            color: #252B42;
+        }
+
+        .advice_cards_elem_content {
+            font-weight: 500;
+            font-size: $fzmain;
+            line-height: $fzH4;
+            letter-spacing: 0.2px;
+            color: #737373;
+        }
+    }
+} 
