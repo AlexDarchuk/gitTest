@@ -597,6 +597,21 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 20px;
 }
 
+.clients_icons_elem {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100/6%;
+          flex: 0 0 100/6%;
+}
+
+.clients_icons_link {
+  max-width: 100%;
+}
+
+.clients_icons_image {
+  width: 100%;
+  padding: 0 10px;
+}
+
 .clients_form_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -608,7 +623,7 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-align: center;
           align-items: center;
   max-width: 1000px;
-  height: 125px;
+  min-height: 125px;
   padding: 30px 50px;
   background: #17213C;
   margin: 70px auto -57px auto;
@@ -652,6 +667,102 @@ form .clients_form_button {
   text-align: center;
   letter-spacing: 0.2px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 960px) {
+  .clients_form_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 15px 30px;
+  }
+  .form_title {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .clients {
+    padding: 20px 20px 0px 20px;
+  }
+  .clients_icons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .clients_icons_elem {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100/3%;
+            flex: 0 0 100/3%;
+  }
+  form {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .clients_icons {
+    display: block;
+    position: relative;
+  }
+  .clients_icons .slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .clients_icons .slick-list {
+    overflow: hidden;
+  }
+  .clients_icons .slick-slide {
+    margin-top: 50px;
+  }
+  .clients_icons .slick-arrow {
+    padding: 10px;
+    background: #FF7B47;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    min-width: 100px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+  }
+  .clients_icons .slick-arrow.slick-prev {
+    left: 0;
+  }
+  .clients_icons .slick-arrow.slick-next {
+    right: 0;
+  }
+  .clients_icons_elem {
+    width: 100%;
+    text-align: center;
+  }
+  .clients_icons_link {
+    width: 100%;
+    height: 250px;
+    position: relative;
+  }
+  .clients_icons_image {
+    width: 250px;
+    padding: 0 10px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
 }
 
 .contacts {

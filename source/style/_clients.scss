@@ -11,13 +11,23 @@
     align-items: center;
     padding: 0 20px;
 }
+.clients_icons_elem {
+    flex: 0 0 100/6%;
+}
+.clients_icons_link {
+    max-width:100%;
+}
+.clients_icons_image {
+    width: 100%;
+    padding: 0 10px;
+}
 
 .clients_form_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1000px;
-    height: 125px;
+    min-height: 125px;
     padding: 30px 50px;
     background: $bgSecondary;
     margin: 70px auto -57px auto;
@@ -56,3 +66,120 @@ form {
         color: $fcTitleLight;
     }
 }
+@media screen and (max-width:960px){
+    .clients_form_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        flex-wrap:nowrap;
+        padding: 15px 30px;
+    }
+    .form_title{
+        text-align: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .clients {
+    padding: 20px 20px 0px 20px;
+    }
+    .clients_icons{
+        flex-wrap: wrap;
+    }
+    .clients_icons_elem {
+    flex: 0 0 100/3%;
+    }
+    form{
+        width: 100%;
+        max-width: 450px;
+    }
+
+}
+
+@media screen and (max-width:520px){
+    .clients{
+    }
+    .clients_icons{
+        display: block;
+        position: relative;
+        .slick-track{
+            display: flex;
+        }
+        .slick-list {
+            overflow: hidden;
+        }
+        .slick-slide{
+            margin-top: 50px;
+        }
+        .slick-arrow{
+            padding: 10px;
+            background:$buttonbgMain;
+            color:$fcSecondary;
+            border:1px solid #FFFFFF;
+            min-width: 100px;
+            position: absolute;
+            top:0;
+            z-index: 10;
+
+        }
+        .slick-arrow.slick-prev{
+            left:0;
+        }
+        .slick-arrow.slick-next{
+            right:0;
+        }
+    }
+    .clients_icons_elem{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .clients_icons_link {
+        width:100%;
+        height:250px ;
+        position: relative;
+    }
+    .clients_icons_image {
+        width: 250px;
+        padding: 0 10px; 
+        position: relative;
+        top: 50%;
+        transform:translate(0,-50%);
+    }
+}
+// /* Слайдер */
+// .slick-slider{}
+// /* Слайдер запущен */
+// .slick-slider.slick-initialized{}
+// /* Слайдер с точками */
+// .slick-slider.slick-dotted{}
+// /* Ограничивающая оболочка */
+// .slick-list {}
+// /* Лента слайдов */
+// .slick-track{}
+// /* Слайд */
+// .slick-slide{}
+// /* Слайд активный (показывается) */
+// .slick-slide.slick-active{}
+// /* Слайд основной */
+// .slick-slide.slick-current{}
+// /* Слайд по центру */
+// .slick-slide.slick-center{}
+// /* Клонированный слайд */
+// .slick-slide.slick-cloned{}
+// /* Стрелка */
+// .slick-arrow{}
+// /* Стрелка влево */
+// .slick-arrow.slick-prev{}
+// /* Стрелка вправо */
+// .slick-arrow.slick-next{}
+// /* Стрелка не активная */
+// .slick-arrow.slick-disabled{}
+// /* Точки (булиты) */
+// .slick-dots{}
+// .slick-dots li{}
+// /* Активная точка */
+// .slick-dots li.slick-active{}
+// /* Элемент точки */
+// .slick-dots li button{}
