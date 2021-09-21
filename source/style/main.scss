@@ -25,7 +25,7 @@ body{
 	margin-bottom: 50px;
 }
 .section_title {
-	font-size:$fzh1 ;
+	font-size:$fzh2 ;
 	color: $fcTitleMain;
 	font-weight: bold;
 	line-height: 57px;
@@ -37,4 +37,14 @@ body{
 	font-weight: 500;
 	line-height: 20px;
 	text-align: center;
+}
+@media screen and (max-width:900px){
+	.titel_container{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width:720px){
+	.section_title {
+		font-size:30px ;
+	}
 }

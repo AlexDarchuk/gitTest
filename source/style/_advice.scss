@@ -2,25 +2,24 @@
 
 .advice {
     background: $bgThird;
+    padding-bottom: 50px;
 }
 
-.titel_container {
-
-    .section_title {
-        font-size: 40px;
-    }
-}
 .advice_cards {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    background:#FFFFFF ;
 }
 
 .advice_cards_elem {
-    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    flex-wrap:nowrap;
+    flex: 0 0 25%;
 
     .advice_block_text {
-        min-height: 203px;
         padding: 30px;
         background: $bgwithoutFocus;
 
@@ -40,5 +39,29 @@
             letter-spacing: 0.2px;
             color: #737373;
         }
+        
     }
+    .advice_cards_media {
+            width:100%;
+            .advice_image {
+                width: 100%;
+            }
+        }
 } 
+@media screen and (max-width:900px) {
+    .advice_cards{
+        flex-wrap:wrap;
+    }
+    .advice_cards_elem{
+        flex: 0 0 45%;
+    }
+}
+@media screen and (max-width:500px) {
+    .advice_cards_elem{
+        flex: 0 0 100%;
+    }
+    .advice_cards_elem_title{
+        text-align: center;
+    }
+
+}

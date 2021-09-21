@@ -37,6 +37,10 @@
 }
 
 @media screen and (max-width:860px) {
+	.designing {
+		padding:50px 0;
+		margin-top: 0px;
+	}
 	.designing_cards{
 		flex-wrap: wrap;
 	}

@@ -147,6 +147,13 @@ form {
         top: 50%;
         transform:translate(0,-50%);
     }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:stretch;
+        flex-wrap:nowrap;
+    }
 }
 // /* Слайдер */
 // .slick-slider{}
